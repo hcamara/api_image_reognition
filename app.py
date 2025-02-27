@@ -79,4 +79,4 @@ def image_classification(img):
    return {"result":result, "probability":pred_proba}
 
 if __name__ == '__main__':
-   app.run(host='0.0.0.0', port=8081, debug=True)
+   app.run(host='0.0.0.0', port=8080)
