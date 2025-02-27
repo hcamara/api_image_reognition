@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Bienvenue Ynov"
+    return "Bienvenue Ynov NoSQL"
 
 
 if __name__ == '__main__':
