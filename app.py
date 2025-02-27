@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Bienvenue sur l'API Image Recognition"
+    return "Bienvenue Ynov"
 
 
 if __name__ == '__main__':
