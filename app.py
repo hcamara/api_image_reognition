@@ -49,7 +49,7 @@ def model_predict(img, model):
 
 def base64_to_pil(img_base64):
     """
-    Convert base64 image data to PIL image
+    Convert base64 image data to PIL image 1
     """
     image_data = re.sub('^data:image/.+;base64,', '', img_base64)
 
@@ -77,6 +77,7 @@ def image_classification(img):
    result = str(pred_class[0][0][1])
    result = result.replace('_', ' ').capitalize()
    return {"result":result, "probability":pred_proba}
+
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0', port=8080)
